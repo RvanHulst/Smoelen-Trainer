@@ -1,0 +1,61 @@
+* {
+    margin: 0;     
+    padding: 0;
+    }
+    
+    #startPageContainer { 
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/images.jpg);
+      }
+    
+      #trainerPageContainer{
+          display: none;
+          width: 100vw;
+          background-color: #8b8b8b;
+      }
+      
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    
+      .styleButtonStart {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+        padding: 16px 64px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      .styleButtonStart:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+    
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+      }
+      th, td {
+        padding: 15px;
+      }
+      .image{
+        height: 200px;
+        width:  200px;
+      }
+      
+      .hideElement{
+        display: none;
+      }
